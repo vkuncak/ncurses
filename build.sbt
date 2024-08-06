@@ -23,15 +23,15 @@ scalacOptions ++= Seq(
   "-language:existentials",
 )
 
-organization := "io.github.edadma"
+// organization := "io.github.edadma"
 
-githubOwner := "edadma"
+//githubOwner := "edadma"
 
-githubRepository := name.value
+// githubRepository := name.value
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
-resolvers += Resolver.githubPackages("edadma")
+// resolvers += Resolver.githubPackages("edadma")
 
 Compile / mainClass := Some("Main")
 
@@ -39,7 +39,7 @@ Compile / mainClass := Some("Main")
 
 licenses := Seq("ISC" -> url("https://opensource.org/licenses/ISC"))
 
-homepage := Some(url("https://github.com/edadma/" + name.value))
+// homepage := Some(url("https://github.com/edadma/" + name.value))
 
 //publishTo := sonatypePublishToBundle.value
 //  {
